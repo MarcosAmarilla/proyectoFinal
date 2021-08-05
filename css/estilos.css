@@ -39,6 +39,12 @@ section div{
     padding-top: 15px;
     padding-bottom: 15px;
 }
+section form div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
 
 .textoCentrado{
     text-align: center;
@@ -100,7 +106,7 @@ section div{
 
 #contenedorVideo{
     display: grid;
-    grid-column-gap: 10px ;
+    grid-column-gap:15px;
     grid-row-gap: 20px;
     padding-bottom: 25px;
 }    
@@ -109,14 +115,14 @@ section div{
 @media only screen and (max-width:600px){
     #contenedorVideo{
         grid-template-columns: 100%;
-        grid-template-rows: 300px 300px 300px 300px 300px 300px; 
+        grid-template-rows: 300px 300px 300px 300px 300px 300px 300px 300px; 
     }
 }
     
 @media only screen and (min-width:600px){
     #contenedorVideo{
         grid-template-columns: 50% 50%;
-        grid-template-rows: 300px 300px 300px; 
+        grid-template-rows: 350px 350px 350px 350px; 
     }
 }
 
